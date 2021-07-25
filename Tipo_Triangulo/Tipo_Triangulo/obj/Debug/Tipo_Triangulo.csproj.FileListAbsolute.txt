@@ -1,0 +1,13 @@
+C:\Users\JX\Documents\GitHub\Tipo_Triangulo\Tipo_Triangulo\bin\Debug\Tipo_Triangulo.exe.config
+C:\Users\JX\Documents\GitHub\Tipo_Triangulo\Tipo_Triangulo\bin\Debug\Tipo_Triangulo.exe
+C:\Users\JX\Documents\GitHub\Tipo_Triangulo\Tipo_Triangulo\bin\Debug\Tipo_Triangulo.pdb
+C:\Users\JX\Documents\GitHub\Tipo_Triangulo\Tipo_Triangulo\obj\Debug\Tipo_Triangulo.csproj.CoreCompileInputs.cache
+C:\Users\JX\Documents\GitHub\Tipo_Triangulo\Tipo_Triangulo\obj\Debug\Tipo_Triangulo.exe
+C:\Users\JX\Documents\GitHub\Tipo_Triangulo\Tipo_Triangulo\obj\Debug\Tipo_Triangulo.pdb
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Tipo_Triangulo\Tipo_Triangulo\bin\Debug\Tipo_Triangulo.exe.config
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Tipo_Triangulo\Tipo_Triangulo\bin\Debug\Tipo_Triangulo.exe
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Tipo_Triangulo\Tipo_Triangulo\bin\Debug\Tipo_Triangulo.pdb
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Tipo_Triangulo\Tipo_Triangulo\obj\Debug\Tipo_Triangulo.csproj.AssemblyReference.cache
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Tipo_Triangulo\Tipo_Triangulo\obj\Debug\Tipo_Triangulo.csproj.CoreCompileInputs.cache
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Tipo_Triangulo\Tipo_Triangulo\obj\Debug\Tipo_Triangulo.exe
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Tipo_Triangulo\Tipo_Triangulo\obj\Debug\Tipo_Triangulo.pdb

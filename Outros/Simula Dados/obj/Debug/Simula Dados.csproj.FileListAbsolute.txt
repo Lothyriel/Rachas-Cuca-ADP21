@@ -1,0 +1,13 @@
+C:\Users\JX\Documents\GitHub\Atividades\Simula Dados\bin\Debug\Simula Dados.exe.config
+C:\Users\JX\Documents\GitHub\Atividades\Simula Dados\bin\Debug\Simula Dados.exe
+C:\Users\JX\Documents\GitHub\Atividades\Simula Dados\bin\Debug\Simula Dados.pdb
+C:\Users\JX\Documents\GitHub\Atividades\Simula Dados\obj\Debug\Simula Dados.csproj.AssemblyReference.cache
+C:\Users\JX\Documents\GitHub\Atividades\Simula Dados\obj\Debug\Simula Dados.csproj.CoreCompileInputs.cache
+C:\Users\JX\Documents\GitHub\Atividades\Simula Dados\obj\Debug\Simula Dados.exe
+C:\Users\JX\Documents\GitHub\Atividades\Simula Dados\obj\Debug\Simula Dados.pdb
+C:\Users\JX\Documents\GitHub\RachasCuca\Simula Dados\bin\Debug\Simula Dados.exe.config
+C:\Users\JX\Documents\GitHub\RachasCuca\Simula Dados\bin\Debug\Simula Dados.exe
+C:\Users\JX\Documents\GitHub\RachasCuca\Simula Dados\bin\Debug\Simula Dados.pdb
+C:\Users\JX\Documents\GitHub\RachasCuca\Simula Dados\obj\Debug\Simula Dados.csproj.CoreCompileInputs.cache
+C:\Users\JX\Documents\GitHub\RachasCuca\Simula Dados\obj\Debug\Simula Dados.exe
+C:\Users\JX\Documents\GitHub\RachasCuca\Simula Dados\obj\Debug\Simula Dados.pdb

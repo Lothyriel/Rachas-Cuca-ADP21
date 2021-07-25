@@ -1,0 +1,10 @@
+C:\Users\JX\Documents\GitHub\RachasCuca\Poker.ConsoleApp\bin\Debug\Poker.ConsoleApp.exe.config
+C:\Users\JX\Documents\GitHub\RachasCuca\Poker.ConsoleApp\bin\Debug\Poker.ConsoleApp.exe
+C:\Users\JX\Documents\GitHub\RachasCuca\Poker.ConsoleApp\bin\Debug\Poker.ConsoleApp.pdb
+C:\Users\JX\Documents\GitHub\RachasCuca\Poker.ConsoleApp\bin\Debug\Poker.dll
+C:\Users\JX\Documents\GitHub\RachasCuca\Poker.ConsoleApp\bin\Debug\Poker.pdb
+C:\Users\JX\Documents\GitHub\RachasCuca\Poker.ConsoleApp\obj\Debug\Poker.ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\JX\Documents\GitHub\RachasCuca\Poker.ConsoleApp\obj\Debug\Poker.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\JX\Documents\GitHub\RachasCuca\Poker.ConsoleApp\obj\Debug\Poker.ConsoleApp.csproj.CopyComplete
+C:\Users\JX\Documents\GitHub\RachasCuca\Poker.ConsoleApp\obj\Debug\Poker.ConsoleApp.exe
+C:\Users\JX\Documents\GitHub\RachasCuca\Poker.ConsoleApp\obj\Debug\Poker.ConsoleApp.pdb

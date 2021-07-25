@@ -1,0 +1,7 @@
+C:\Users\JX\Documents\GitHub\EscrevendoCelular\EscrevendoCelular\bin\Debug\EscrevendoCelular.exe.config
+C:\Users\JX\Documents\GitHub\EscrevendoCelular\EscrevendoCelular\bin\Debug\EscrevendoCelular.exe
+C:\Users\JX\Documents\GitHub\EscrevendoCelular\EscrevendoCelular\bin\Debug\EscrevendoCelular.pdb
+C:\Users\JX\Documents\GitHub\EscrevendoCelular\EscrevendoCelular\obj\Debug\EscrevendoCelular.csprojAssemblyReference.cache
+C:\Users\JX\Documents\GitHub\EscrevendoCelular\EscrevendoCelular\obj\Debug\EscrevendoCelular.csproj.CoreCompileInputs.cache
+C:\Users\JX\Documents\GitHub\EscrevendoCelular\EscrevendoCelular\obj\Debug\EscrevendoCelular.exe
+C:\Users\JX\Documents\GitHub\EscrevendoCelular\EscrevendoCelular\obj\Debug\EscrevendoCelular.pdb

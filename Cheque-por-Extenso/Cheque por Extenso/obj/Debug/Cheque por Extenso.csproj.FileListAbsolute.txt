@@ -1,0 +1,14 @@
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque por Extenso\bin\Debug\Cheque por Extenso.exe.config
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque por Extenso\bin\Debug\Cheque por Extenso.exe
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque por Extenso\bin\Debug\Cheque por Extenso.pdb
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque por Extenso\obj\Debug\Cheque por Extenso.csproj.CoreCompileInputs.cache
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque por Extenso\obj\Debug\Cheque por Extenso.exe
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque por Extenso\obj\Debug\Cheque por Extenso.pdb
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque por Extenso\obj\Debug\Cheque por Extenso.csprojAssemblyReference.cache
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque-por-Extenso\Cheque por Extenso\bin\Debug\Cheque por Extenso.exe.config
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque-por-Extenso\Cheque por Extenso\bin\Debug\Cheque por Extenso.exe
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque-por-Extenso\Cheque por Extenso\bin\Debug\Cheque por Extenso.pdb
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque-por-Extenso\Cheque por Extenso\obj\Debug\Cheque por Extenso.csproj.CoreCompileInputs.cache
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque-por-Extenso\Cheque por Extenso\obj\Debug\Cheque por Extenso.exe
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque-por-Extenso\Cheque por Extenso\obj\Debug\Cheque por Extenso.pdb
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque-por-Extenso\Cheque por Extenso\obj\Debug\Cheque por Extenso.csprojAssemblyReference.cache

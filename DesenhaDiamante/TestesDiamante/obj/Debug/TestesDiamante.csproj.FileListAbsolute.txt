@@ -1,0 +1,17 @@
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\DesenhaDiamante\TestesDiamante\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\DesenhaDiamante\TestesDiamante\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\DesenhaDiamante\TestesDiamante\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\DesenhaDiamante\TestesDiamante\bin\Debug\TestesDiamante.dll
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\DesenhaDiamante\TestesDiamante\bin\Debug\TestesDiamante.pdb
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\DesenhaDiamante\TestesDiamante\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\DesenhaDiamante\TestesDiamante\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\DesenhaDiamante\TestesDiamante\bin\Debug\sexo.exe
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\DesenhaDiamante\TestesDiamante\bin\Debug\sexo.pdb
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\DesenhaDiamante\TestesDiamante\bin\Debug\sexo.exe.config
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\DesenhaDiamante\TestesDiamante\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\DesenhaDiamante\TestesDiamante\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\DesenhaDiamante\TestesDiamante\obj\Debug\TestesDiamante.csproj.AssemblyReference.cache
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\DesenhaDiamante\TestesDiamante\obj\Debug\TestesDiamante.csproj.CoreCompileInputs.cache
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\DesenhaDiamante\TestesDiamante\obj\Debug\TestesDiamante.csproj.CopyComplete
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\DesenhaDiamante\TestesDiamante\obj\Debug\TestesDiamante.dll
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\DesenhaDiamante\TestesDiamante\obj\Debug\TestesDiamante.pdb

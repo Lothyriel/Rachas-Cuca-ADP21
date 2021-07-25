@@ -1,0 +1,34 @@
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\UnitTestProject\bin\Debug\UnitTestProject.dll
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\UnitTestProject\bin\Debug\UnitTestProject.pdb
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\UnitTestProject\bin\Debug\Cheque por Extenso.exe
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\UnitTestProject\bin\Debug\Cheque por Extenso.pdb
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\UnitTestProject\bin\Debug\Cheque por Extenso.exe.config
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\UnitTestProject\obj\Debug\UnitTestProject.csprojAssemblyReference.cache
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\UnitTestProject\obj\Debug\UnitTestProject.csproj.CoreCompileInputs.cache
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\UnitTestProject\obj\Debug\UnitTestProject.csproj.CopyComplete
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\UnitTestProject\obj\Debug\UnitTestProject.dll
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\UnitTestProject\obj\Debug\UnitTestProject.pdb
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque-por-Extenso\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque-por-Extenso\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque-por-Extenso\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque-por-Extenso\UnitTestProject\bin\Debug\UnitTestProject.dll
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque-por-Extenso\UnitTestProject\bin\Debug\UnitTestProject.pdb
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque-por-Extenso\UnitTestProject\bin\Debug\Cheque por Extenso.exe
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque-por-Extenso\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque-por-Extenso\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque-por-Extenso\UnitTestProject\bin\Debug\Cheque por Extenso.pdb
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque-por-Extenso\UnitTestProject\bin\Debug\Cheque por Extenso.exe.config
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque-por-Extenso\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque-por-Extenso\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque-por-Extenso\UnitTestProject\obj\Debug\UnitTestProject.csprojAssemblyReference.cache
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque-por-Extenso\UnitTestProject\obj\Debug\UnitTestProject.csproj.CoreCompileInputs.cache
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque-por-Extenso\UnitTestProject\obj\Debug\UnitTestProject.csproj.CopyComplete
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque-por-Extenso\UnitTestProject\obj\Debug\UnitTestProject.dll
+C:\Users\JX\Documents\GitHub\Cheque por Extenso\Cheque-por-Extenso\UnitTestProject\obj\Debug\UnitTestProject.pdb

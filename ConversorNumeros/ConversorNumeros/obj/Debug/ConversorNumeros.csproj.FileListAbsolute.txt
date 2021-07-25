@@ -1,0 +1,5 @@
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\ConversorNumeros\ConversorNumeros\bin\Debug\ConversorNumeros.dll
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\ConversorNumeros\ConversorNumeros\bin\Debug\ConversorNumeros.pdb
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\ConversorNumeros\ConversorNumeros\obj\Debug\ConversorNumeros.csproj.CoreCompileInputs.cache
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\ConversorNumeros\ConversorNumeros\obj\Debug\ConversorNumeros.dll
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\ConversorNumeros\ConversorNumeros\obj\Debug\ConversorNumeros.pdb

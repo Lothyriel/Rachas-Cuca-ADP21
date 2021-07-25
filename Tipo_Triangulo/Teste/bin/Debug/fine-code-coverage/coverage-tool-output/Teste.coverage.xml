@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.7.922.0">
+  <Summary numSequencePoints="90" visitedSequencePoints="47" numBranchPoints="42" visitedBranchPoints="20" sequenceCoverage="52.22" branchCoverage="47.62" maxCyclomaticComplexity="10" minCyclomaticComplexity="1" maxCrapScore="13.15" minCrapScore="1" visitedClasses="5" numClasses="8" visitedMethods="7" numMethods="12" />
+  <Modules>
+    <Module hash="3D-6D-98-39-CB-A3-CC-FE-DA-50-4B-FA-AC-3D-96-8F-0B-89-67-32">
+      <Summary numSequencePoints="14" visitedSequencePoints="14" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+      <ModulePath>C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Tipo_Triangulo\Teste\bin\Debug\fine-code-coverage\build-output\Teste.dll</ModulePath>
+      <ModuleTime>2021-07-25T10:15:44.3498874Z</ModuleTime>
+      <ModuleName>Teste</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Tipo_Triangulo\Teste\UnitTest.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="14" visitedSequencePoints="14" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>Teste.UnitTest</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void Teste.UnitTest::escaleno()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="1" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="2" ordinal="1" offset="1" sl="12" sc="13" el="12" ec="25" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="3" ordinal="2" offset="11" sl="12" sc="27" el="12" ec="32" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="4" ordinal="3" offset="21" sl="12" sc="34" el="12" ec="39" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="5" ordinal="4" offset="31" sl="13" sc="13" el="13" ec="74" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="6" ordinal="5" offset="40" sl="14" sc="13" el="14" ec="119" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="7" ordinal="6" offset="117" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="1" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void Teste.UnitTest::trianguloInvalido()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="8" ordinal="0" offset="0" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="9" ordinal="1" offset="1" sl="19" sc="13" el="19" ec="25" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="10" ordinal="2" offset="11" sl="19" sc="27" el="19" ec="32" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="11" ordinal="3" offset="21" sl="19" sc="34" el="19" ec="39" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="12" ordinal="4" offset="31" sl="20" sc="13" el="20" ec="90" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="13" ordinal="5" offset="58" sl="21" sc="13" el="21" ec="77" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="14" ordinal="6" offset="70" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="8" ordinal="0" offset="0" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void Teste.UnitTest::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="15" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="8E-F8-94-71-0F-7B-5A-C6-A0-2C-CA-6A-11-C4-71-E1-A8-1B-7E-AF">
+      <Summary numSequencePoints="76" visitedSequencePoints="33" numBranchPoints="40" visitedBranchPoints="18" sequenceCoverage="43.42" branchCoverage="45" maxCyclomaticComplexity="10" minCyclomaticComplexity="1" maxCrapScore="13.15" minCrapScore="1" visitedClasses="4" numClasses="7" visitedMethods="5" numMethods="10" />
+      <ModulePath>C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Tipo_Triangulo\Teste\bin\Debug\fine-code-coverage\build-output\Tipo_Triangulo.exe</ModulePath>
+      <ModuleTime>2021-07-25T10:15:15.5104267Z</ModuleTime>
+      <ModuleName>Tipo_Triangulo</ModuleName>
+      <Files>
+        <File uid="3" fullPath="C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Tipo_Triangulo\Tipo_Triangulo\classificaTriangulo.cs" />
+        <File uid="4" fullPath="C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Tipo_Triangulo\Tipo_Triangulo\Triangulos\isosceles.cs" />
+        <File uid="5" fullPath="C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Tipo_Triangulo\Tipo_Triangulo\Triangulos\escaleno.cs" />
+        <File uid="6" fullPath="C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Tipo_Triangulo\Tipo_Triangulo\Triangulos\equilatero.cs" />
+        <File uid="7" fullPath="C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Tipo_Triangulo\Tipo_Triangulo\Program.cs" />
+        <File uid="8" fullPath="C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Tipo_Triangulo\Tipo_Triangulo\Triangulos\Triangulo.cs" />
+        <File uid="9" fullPath="C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Tipo_Triangulo\Tipo_Triangulo\validaLados.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="14" visitedSequencePoints="8" numBranchPoints="11" visitedBranchPoints="5" sequenceCoverage="57.14" branchCoverage="45.45" maxCyclomaticComplexity="7" minCyclomaticComplexity="1" maxCrapScore="10.86" minCrapScore="2" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>Tipo_Triangulo.classificaTriangulo</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="7" nPathComplexity="32" sequenceCoverage="57.14" branchCoverage="45.45" crapScore="10.86" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="14" visitedSequencePoints="8" numBranchPoints="11" visitedBranchPoints="5" sequenceCoverage="57.14" branchCoverage="45.45" maxCyclomaticComplexity="7" minCyclomaticComplexity="7" maxCrapScore="10.86" minCrapScore="10.86" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>Tipo_Triangulo.Triangulo Tipo_Triangulo.classificaTriangulo::classifica(System.Double,System.Double,System.Double)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="16" ordinal="0" offset="0" sl="6" sc="9" el="6" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="17" ordinal="1" offset="1" sl="8" sc="13" el="8" ec="34" bec="4" bev="2" fileid="3" />
+                <SequencePoint vc="0" uspid="18" ordinal="2" offset="16" sl="8" sc="35" el="8" ec="36" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="19" ordinal="3" offset="17" sl="8" sc="37" el="8" ec="73" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="20" ordinal="4" offset="26" sl="8" sc="74" el="8" ec="75" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="21" ordinal="5" offset="29" sl="9" sc="18" el="9" ec="43" bec="6" bev="2" fileid="3" />
+                <SequencePoint vc="0" uspid="22" ordinal="6" offset="51" sl="9" sc="44" el="9" ec="45" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="23" ordinal="7" offset="52" sl="9" sc="46" el="9" ec="81" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="24" ordinal="8" offset="61" sl="9" sc="82" el="9" ec="83" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="25" ordinal="9" offset="64" sl="10" sc="18" el="10" ec="19" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="26" ordinal="10" offset="65" sl="10" sc="20" el="10" ec="54" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="27" ordinal="11" offset="74" sl="10" sc="55" el="10" ec="56" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="28" ordinal="12" offset="75" sl="11" sc="13" el="11" ec="30" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="29" ordinal="13" offset="79" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="30" ordinal="0" offset="3" sl="8" path="0" offsetend="5" fileid="3" />
+                <BranchPoint vc="1" uspid="31" ordinal="1" offset="3" sl="8" path="1" offsetend="11" fileid="3" />
+                <BranchPoint vc="0" uspid="32" ordinal="2" offset="14" sl="8" path="0" offsetend="16" fileid="3" />
+                <BranchPoint vc="1" uspid="33" ordinal="3" offset="14" sl="8" path="1" offsetend="29" fileid="3" />
+                <BranchPoint vc="0" uspid="34" ordinal="4" offset="31" sl="9" path="0" offsetend="33" fileid="3" />
+                <BranchPoint vc="1" uspid="35" ordinal="5" offset="31" sl="9" path="1" offsetend="46" fileid="3" />
+                <BranchPoint vc="0" uspid="36" ordinal="6" offset="35" sl="9" path="0" offsetend="37" fileid="3" />
+                <BranchPoint vc="0" uspid="37" ordinal="7" offset="35" sl="9" path="1" offsetend="43" fileid="3" />
+                <BranchPoint vc="0" uspid="38" ordinal="8" offset="49" sl="9" path="0" offsetend="51" fileid="3" />
+                <BranchPoint vc="1" uspid="39" ordinal="9" offset="49" sl="9" path="1" offsetend="64" fileid="3" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="16" ordinal="0" offset="0" sl="6" sc="9" el="6" ec="10" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void Tipo_Triangulo.classificaTriangulo::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="40" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>Tipo_Triangulo.isosceles</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void Tipo_Triangulo.isosceles::.ctor(System.Double,System.Double,System.Double)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="41" ordinal="0" offset="0" sl="5" sc="58" el="5" ec="71" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="42" ordinal="1" offset="10" sl="5" sc="72" el="5" ec="73" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="43" ordinal="2" offset="11" sl="5" sc="74" el="5" ec="75" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="41" ordinal="0" offset="0" sl="5" sc="58" el="5" ec="71" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.String Tipo_Triangulo.isosceles::ToString()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="44" ordinal="0" offset="0" sl="7" sc="9" el="7" ec="10" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="45" ordinal="1" offset="1" sl="8" sc="13" el="8" ec="81" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="46" ordinal="2" offset="81" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="44" ordinal="0" offset="0" sl="7" sc="9" el="7" ec="10" bec="0" bev="0" fileid="4" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>Tipo_Triangulo.escaleno</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Void Tipo_Triangulo.escaleno::.ctor(System.Double,System.Double,System.Double)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="47" ordinal="0" offset="0" sl="5" sc="57" el="5" ec="70" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="48" ordinal="1" offset="10" sl="5" sc="71" el="5" ec="72" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="49" ordinal="2" offset="11" sl="5" sc="73" el="5" ec="74" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="47" ordinal="0" offset="0" sl="5" sc="57" el="5" ec="70" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.String Tipo_Triangulo.escaleno::ToString()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="50" ordinal="0" offset="0" sl="7" sc="9" el="7" ec="10" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="51" ordinal="1" offset="1" sl="8" sc="13" el="8" ec="78" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="52" ordinal="2" offset="81" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="50" ordinal="0" offset="0" sl="7" sc="9" el="7" ec="10" bec="0" bev="0" fileid="5" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>Tipo_Triangulo.equilatero</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Void Tipo_Triangulo.equilatero::.ctor(System.Double,System.Double,System.Double)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="53" ordinal="0" offset="0" sl="5" sc="58" el="5" ec="71" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="54" ordinal="1" offset="10" sl="5" sc="72" el="5" ec="73" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="55" ordinal="2" offset="11" sl="5" sc="74" el="5" ec="75" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="53" ordinal="0" offset="0" sl="5" sc="58" el="5" ec="71" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.String Tipo_Triangulo.equilatero::ToString()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="56" ordinal="0" offset="0" sl="7" sc="9" el="7" ec="10" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="57" ordinal="1" offset="1" sl="8" sc="13" el="8" ec="80" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="58" ordinal="2" offset="81" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="56" ordinal="0" offset="0" sl="7" sc="9" el="7" ec="10" bec="0" bev="0" fileid="6" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="19" visitedSequencePoints="0" numBranchPoints="3" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="6" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>Tipo_Triangulo.Program</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" crapScore="6" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="19" visitedSequencePoints="0" numBranchPoints="3" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="6" minCrapScore="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>System.Void Tipo_Triangulo.Program::Main(System.String[])</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="59" ordinal="0" offset="0" sl="8" sc="9" el="8" ec="10" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="60" ordinal="1" offset="3" sl="10" sc="13" el="10" ec="14" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="61" ordinal="2" offset="4" sl="11" sc="17" el="11" ec="91" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="62" ordinal="3" offset="15" sl="12" sc="17" el="12" ec="47" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="63" ordinal="4" offset="21" sl="13" sc="17" el="13" ec="47" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="64" ordinal="5" offset="27" sl="14" sc="17" el="14" ec="47" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="65" ordinal="6" offset="33" sl="15" sc="17" el="15" ec="44" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="66" ordinal="7" offset="35" sl="17" sc="17" el="17" ec="33" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="67" ordinal="8" offset="41" sl="19" sc="17" el="19" ec="64" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="68" ordinal="9" offset="51" sl="20" sc="17" el="20" ec="37" bec="2" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="69" ordinal="10" offset="69" sl="21" sc="17" el="21" ec="18" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="70" ordinal="11" offset="70" sl="22" sc="21" el="22" ec="127" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="71" ordinal="12" offset="94" sl="23" sc="21" el="23" ec="61" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="72" ordinal="13" offset="106" sl="24" sc="17" el="24" ec="18" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="73" ordinal="14" offset="109" sl="25" sc="22" el="25" ec="23" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="74" ordinal="15" offset="110" sl="25" sc="24" el="25" ec="53" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="75" ordinal="16" offset="118" sl="25" sc="54" el="25" ec="55" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="76" ordinal="17" offset="119" sl="26" sc="13" el="26" ec="14" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="77" ordinal="18" offset="120" sl="9" sc="13" el="9" ec="25" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="78" ordinal="0" offset="67" sl="20" path="0" offsetend="69" fileid="7" />
+                <BranchPoint vc="0" uspid="79" ordinal="1" offset="67" sl="20" path="1" offsetend="109" fileid="7" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="59" ordinal="0" offset="0" sl="8" sc="9" el="8" ec="10" bec="0" bev="0" fileid="7" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Void Tipo_Triangulo.Program::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="80" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>Tipo_Triangulo.Triangulo</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.Void Tipo_Triangulo.Triangulo::.ctor(System.Double,System.Double,System.Double)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="81" ordinal="0" offset="0" sl="6" sc="9" el="6" ec="55" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="82" ordinal="1" offset="7" sl="7" sc="9" el="7" ec="10" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="83" ordinal="2" offset="8" sl="8" sc="13" el="8" ec="24" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="84" ordinal="3" offset="15" sl="9" sc="13" el="9" ec="24" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="85" ordinal="4" offset="22" sl="10" sc="13" el="10" ec="24" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="86" ordinal="5" offset="29" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="81" ordinal="0" offset="0" sl="6" sc="9" el="6" ec="55" bec="0" bev="0" fileid="8" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="19" visitedSequencePoints="13" numBranchPoints="19" visitedBranchPoints="10" sequenceCoverage="68.42" branchCoverage="52.63" maxCyclomaticComplexity="10" minCyclomaticComplexity="1" maxCrapScore="13.15" minCrapScore="2" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>Tipo_Triangulo.validaLados</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="10" nPathComplexity="512" sequenceCoverage="68.42" branchCoverage="52.63" crapScore="13.15" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="19" visitedSequencePoints="13" numBranchPoints="19" visitedBranchPoints="10" sequenceCoverage="68.42" branchCoverage="52.63" maxCyclomaticComplexity="10" minCyclomaticComplexity="10" maxCrapScore="13.15" minCrapScore="13.15" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.String Tipo_Triangulo.validaLados::valida(System.String,System.String,System.String)</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="87" ordinal="0" offset="0" sl="6" sc="9" el="6" ec="10" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="88" ordinal="1" offset="1" sl="7" sc="13" el="7" ec="26" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="89" ordinal="2" offset="11" sl="7" sc="28" el="7" ec="34" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="90" ordinal="3" offset="21" sl="7" sc="36" el="7" ec="42" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="91" ordinal="4" offset="31" sl="8" sc="13" el="8" ec="35" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="92" ordinal="5" offset="37" sl="9" sc="13" el="9" ec="107" bec="5" bev="3" fileid="9" />
+                <SequencePoint vc="0" uspid="93" ordinal="6" offset="77" sl="10" sc="13" el="10" ec="14" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="94" ordinal="7" offset="78" sl="11" sc="17" el="11" ec="66" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="95" ordinal="8" offset="90" sl="12" sc="13" el="12" ec="14" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="96" ordinal="9" offset="91" sl="13" sc="13" el="13" ec="62" bec="5" bev="3" fileid="9" />
+                <SequencePoint vc="0" uspid="97" ordinal="10" offset="118" sl="13" sc="63" el="13" ec="64" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="98" ordinal="11" offset="119" sl="13" sc="65" el="13" ec="135" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="99" ordinal="12" offset="131" sl="13" sc="136" el="13" ec="137" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="100" ordinal="13" offset="132" sl="14" sc="13" el="14" ec="47" bec="5" bev="2" fileid="9" />
+                <SequencePoint vc="1" uspid="101" ordinal="14" offset="180" sl="14" sc="48" el="14" ec="49" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="102" ordinal="15" offset="181" sl="14" sc="50" el="14" ec="99" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="103" ordinal="16" offset="193" sl="14" sc="100" el="14" ec="101" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="104" ordinal="17" offset="194" sl="15" sc="13" el="15" ec="30" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="105" ordinal="18" offset="199" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="106" ordinal="0" offset="45" sl="9" path="0" offsetend="47" fileid="9" />
+                <BranchPoint vc="0" uspid="107" ordinal="1" offset="45" sl="9" path="1" offsetend="70" fileid="9" />
+                <BranchPoint vc="1" uspid="108" ordinal="2" offset="55" sl="9" path="0" offsetend="57" fileid="9" />
+                <BranchPoint vc="0" uspid="109" ordinal="3" offset="55" sl="9" path="1" offsetend="70" fileid="9" />
+                <BranchPoint vc="0" uspid="110" ordinal="4" offset="75" sl="9" path="0" offsetend="77" fileid="9" />
+                <BranchPoint vc="1" uspid="111" ordinal="5" offset="75" sl="9" path="1" offsetend="91" fileid="9" />
+                <BranchPoint vc="1" uspid="112" ordinal="6" offset="95" sl="13" path="0" offsetend="97" fileid="9" />
+                <BranchPoint vc="0" uspid="113" ordinal="7" offset="95" sl="13" path="1" offsetend="111" fileid="9" />
+                <BranchPoint vc="1" uspid="114" ordinal="8" offset="101" sl="13" path="0" offsetend="103" fileid="9" />
+                <BranchPoint vc="0" uspid="115" ordinal="9" offset="101" sl="13" path="1" offsetend="111" fileid="9" />
+                <BranchPoint vc="0" uspid="116" ordinal="10" offset="116" sl="13" path="0" offsetend="118" fileid="9" />
+                <BranchPoint vc="1" uspid="117" ordinal="11" offset="116" sl="13" path="1" offsetend="132" fileid="9" />
+                <BranchPoint vc="0" uspid="118" ordinal="12" offset="142" sl="14" path="0" offsetend="144" fileid="9" />
+                <BranchPoint vc="1" uspid="119" ordinal="13" offset="142" sl="14" path="1" offsetend="173" fileid="9" />
+                <BranchPoint vc="0" uspid="120" ordinal="14" offset="154" sl="14" path="0" offsetend="156" fileid="9" />
+                <BranchPoint vc="1" uspid="121" ordinal="15" offset="154" sl="14" path="1" offsetend="173" fileid="9" />
+                <BranchPoint vc="1" uspid="122" ordinal="16" offset="178" sl="14" path="0" offsetend="180" fileid="9" />
+                <BranchPoint vc="0" uspid="123" ordinal="17" offset="178" sl="14" path="1" offsetend="194" fileid="9" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="87" ordinal="0" offset="0" sl="6" sc="9" el="6" ec="10" bec="0" bev="0" fileid="9" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.Void Tipo_Triangulo.validaLados::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="124" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>
