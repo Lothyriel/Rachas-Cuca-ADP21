@@ -40,10 +40,11 @@ namespace Poker
             if (pares == 2) return ClassMao.DoisPares;
 
             //sequencias
-            if (SaoSequencia(baralho))
+            if (saoSequencia(baralho))
             {
+                cartasMao = baralho;
                 if (saoMesmoNaipe(baralho))
-                    if (ehRoyalFlush(baralho))                     
+                    if (ehRoyalFlush(baralho))
                         return ClassMao.RoyalFlush;
                     else
                         return ClassMao.StraightFlush;
@@ -91,11 +92,17 @@ namespace Poker
         {
             return cartas.GroupBy(c => c.numero).ToDictionary(c => c.Key, g => g.Count());
         }
-        private static bool SaoSequencia(List<Carta> baralho)
+        private static bool saoSequencia(List<Carta> baralho)
         {
-            var numeros = baralho.OrderBy(c => c.numero).Select(c => (int)c.numero).ToList();
+            if (saoSequencia(baralho.Select(c => c.numero == Numero.NA ? -1 : (int)c.numero)))      //resolver ace high e five high
+                return true;
+            return saoSequencia(baralho.Select(c => (int)c.numero));
+        }
+        private static bool saoSequencia(IEnumerable<int> numeros)
+        {
+            numeros = numeros.OrderBy(n => n);
 
-            int elementos = numeros.Count;
+            int elementos = numeros.Count();
             int primeiroElemento = numeros.First();
             int ultimoElemento = numeros.Last();
 
@@ -105,5 +112,10 @@ namespace Poker
             return resultado == resultadoCerto;
         }
         #endregion
+
+        public override string ToString()
+        {
+            return classificacao.ToString();
+        }
     }
 }

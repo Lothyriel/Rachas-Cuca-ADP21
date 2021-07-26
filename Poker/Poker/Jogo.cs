@@ -10,55 +10,77 @@ namespace Poker
         {
             this.jogadores = jogadores;
         }
-        public string getGanhador()
+        public string resultado()
         {
-            var ganhador = maiorMao(jogadores);
-            int id = jogadores.IndexOf(ganhador);
-            return id != -1 ? $"Jogador {id + 1}" : "Empate";
+            var ganhadores = this.ganhadores();
+            string resultado = "";
+            ganhadores.ForEach(j => resultado += $"Jogador {jogadores.IndexOf(j) + 1} | ");
+            return resultado;
         }
-        private static Jogador maiorMao(List<Jogador> jogadores)
+        public List<Jogador> ganhadores()
         {
             Jogador ganhador = jogadores.First();
+            var ganhadores = new List<Jogador>();
             foreach (var jogador in jogadores.Skip(1))
             {
                 ClassMao maoJogador = jogador.mao.classificacao;
                 ClassMao? maoGanhador = ganhador?.mao.classificacao;
                 if (maoJogador > maoGanhador)
-                    ganhador = jogador;
-                else if (maoJogador == maoGanhador)
-                    ganhador = desempateCartasMao(ganhador, jogador);
+                    ganhadores.Add(jogador);
+                else if (maoGanhador > maoJogador)
+                    ganhadores.Add(ganhador);
+                else
+                    ganhadores.AddRange(desempateMao(ganhador, jogador));
             }
-            return ganhador;
+            return ganhadores;
         }
-        private static Jogador desempateCartasMao(Jogador jogador1, Jogador jogador2)
+        private static List<Jogador> desempateMao(Jogador jogador1, Jogador jogador2)
         {
-            var j1Pontos = jogador1.mao.cartasMao.Sum(c => (int)c.numero);
-            var j2Pontos = jogador2.mao.cartasMao.Sum(c => (int)c.numero);
+            int j1Pontos = calcularPontos(jogador1);
+            int j2Pontos = calcularPontos(jogador2);
 
             if (j1Pontos > j2Pontos)
-                return jogador1;
+                return new List<Jogador>() { jogador1 };
             else if (j2Pontos > j1Pontos)
-                return jogador2;
+                return new List<Jogador>() { jogador2 };
             else
-                return desempateCartas(jogador1, jogador2);
+                return desempateKickers(jogador1, jogador2);
         }
-        private static Jogador desempateCartas(Jogador jogador1, Jogador jogador2)
+        private static List<Jogador> desempateKickers(Jogador jogador1, Jogador jogador2)
         {
-            var j1Pontos = jogador1.baralho.Sum(c => (int)c.numero);
-            var j2Pontos = jogador2.baralho.Sum(c => (int)c.numero);
+            var kickers1 = new Queue<Carta>(jogador1.baralho.Except(jogador1.mao.cartasMao).OrderByDescending(c => c.numero));
+            var kickers2 = new Queue<Carta>(jogador2.baralho.Except(jogador2.mao.cartasMao).OrderByDescending(c => c.numero));
 
-            if (j1Pontos > j2Pontos)
-                return jogador1;
-            else if (j2Pontos > j1Pontos)
-                return jogador2;
-            else
-                return null;
+            while (kickers1.Any())
+            {
+                Carta kicker1 = kickers1.Dequeue();
+                Carta kicker2 = kickers2.Dequeue();
+
+                if (kicker1 > kicker2)
+                    return new List<Jogador>() { jogador1 };
+                else if (kicker2 > kicker1)
+                    return new List<Jogador>() { jogador2 };
+            }
+            return new List<Jogador>() { jogador1, jogador2 };
+        }
+        private static int calcularPontos(Jogador jogador)
+        {
+            var j1Pontos = jogador.mao.cartasMao.Sum(c => (int)c.numero);
+            if (ehFiveHigh(jogador))
+                j1Pontos -= (int)Numero.NA;
+            return j1Pontos;
+        }
+        private static bool ehFiveHigh(Jogador jogador)
+        {
+            ClassMao mao = jogador.mao.classificacao;
+            var baralho = jogador.baralho;
+            return (mao == ClassMao.Straight || mao == ClassMao.StraightFlush) && baralho.Max().numero == Numero.NA && baralho.Min().numero == Numero.N2;
         }
         public override string ToString()
         {
             string jogadores = "";
             this.jogadores.ForEach(j => jogadores += j + "\n");
-            jogadores += getGanhador();
+            jogadores += resultado();
             return jogadores;
         }
     }

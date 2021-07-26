@@ -29,7 +29,7 @@ namespace Poker
         {
             string baralho = "";
             this.baralho.ForEach(c => baralho += c + " ");
-            baralho += mao.classificacao;
+            baralho += mao.ToString();
             return baralho;
         }
     }

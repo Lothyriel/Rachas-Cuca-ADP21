@@ -32,7 +32,7 @@ namespace Poker
         }
         public static bool operator >(Carta a, Carta b)
         {
-            return !(a < b);
+            return a.numero > b.numero;
         }
         public override string ToString()
         {

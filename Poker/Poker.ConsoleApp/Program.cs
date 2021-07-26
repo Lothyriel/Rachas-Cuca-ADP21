@@ -8,24 +8,24 @@ namespace Poker.ConsoleApp
         static void Main(string[] args)
         {
             CriaJogo cj;
-            int jogos = 0;
+            int iteracoes = 0;
             do
             {
                 cj = new CriaJogo(2);
                 Console.WriteLine(cj);
-                jogos++;
+                iteracoes++;
             } while (!empate(cj.jogo));
-            Console.WriteLine("Iterações: " + jogos);
+            Console.WriteLine("Iterações: " + iteracoes);
             Console.ReadKey();
         }
 
-        private static bool saiuRoyalFlush(Jogo jogo)
+        private static bool saiuMao(Jogo jogo)
         {
             return jogo.jogadores.Any(j => j.mao.classificacao == ClassMao.RoyalFlush);
         }
         private static bool empate(Jogo jogo)
         {
-            return jogo.getGanhador() == "Empate";
+            return jogo.ganhadores().Count > 1;
         }
     }
 }

@@ -68,6 +68,18 @@ namespace TestesPoker
             jogador.mao.classificacao.Should().Be(ClassMao.Straight);
         }
         [TestMethod]
+        public void aceHigh()
+        {
+            Jogador jogador = new Jogador("AH KC QS JS TD");
+            jogador.mao.classificacao.Should().Be(ClassMao.Straight);
+        }
+        [TestMethod]
+        public void fiveHigh()
+        {
+            Jogador jogador = new Jogador("5H 4C 3S 2S AD");
+            jogador.mao.classificacao.Should().Be(ClassMao.Straight);
+        }
+        [TestMethod]
         public void straight2()
         {
             Jogador jogador = new Jogador("AS KD QH JC TD");

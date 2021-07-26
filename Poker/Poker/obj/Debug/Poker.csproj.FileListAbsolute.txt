@@ -4,3 +4,9 @@ C:\Users\JX\Documents\GitHub\RachasCuca\Poker\obj\Debug\Poker.csproj.CoreCompile
 C:\Users\JX\Documents\GitHub\RachasCuca\Poker\obj\Debug\Poker.dll
 C:\Users\JX\Documents\GitHub\RachasCuca\Poker\obj\Debug\Poker.pdb
 C:\Users\JX\Documents\GitHub\RachasCuca\Poker\obj\Debug\Poker.csproj.AssemblyReference.cache
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Poker\Poker\bin\Debug\Poker.dll
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Poker\Poker\bin\Debug\Poker.pdb
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Poker\Poker\obj\Debug\Poker.csproj.AssemblyReference.cache
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Poker\Poker\obj\Debug\Poker.csproj.CoreCompileInputs.cache
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Poker\Poker\obj\Debug\Poker.dll
+C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Poker\Poker\obj\Debug\Poker.pdb
