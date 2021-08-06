@@ -14,7 +14,7 @@ namespace Poker.ConsoleApp
                 cj = new CriaJogo(2);
                 Console.WriteLine(cj);
                 iteracoes++;
-            } while (!empate(cj.jogo));
+            } while (!saiuMao(cj.jogo));
             Console.WriteLine("Iterações: " + iteracoes);
             Console.ReadKey();
         }

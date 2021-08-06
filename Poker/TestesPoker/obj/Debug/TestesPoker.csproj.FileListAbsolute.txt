@@ -17,9 +17,6 @@ C:\Users\JX\Documents\GitHub\RachasCuca\TestesPoker\obj\Debug\TestesPoker.csproj
 C:\Users\JX\Documents\GitHub\RachasCuca\TestesPoker\obj\Debug\TestesPoker.csproj.CopyComplete
 C:\Users\JX\Documents\GitHub\RachasCuca\TestesPoker\obj\Debug\TestesPoker.dll
 C:\Users\JX\Documents\GitHub\RachasCuca\TestesPoker\obj\Debug\TestesPoker.pdb
-C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Poker\TestesPoker\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Poker\TestesPoker\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Poker\TestesPoker\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Poker\TestesPoker\bin\Debug\TestesPoker.dll
 C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Poker\TestesPoker\bin\Debug\TestesPoker.pdb
 C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Poker\TestesPoker\bin\Debug\FluentAssertions.dll

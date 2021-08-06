@@ -48,8 +48,8 @@ namespace Poker
         }
         private static List<Jogador> desempateKickers(Jogador jogador1, Jogador jogador2)
         {
-            var kickers1 = new Queue<Carta>(jogador1.baralho.Except(jogador1.mao.cartasMao).OrderByDescending(c => c.numero));
-            var kickers2 = new Queue<Carta>(jogador2.baralho.Except(jogador2.mao.cartasMao).OrderByDescending(c => c.numero));
+            var kickers1 = ordenarFila(jogador1);
+            var kickers2 = ordenarFila(jogador2);
 
             while (kickers1.Any())
             {
@@ -62,6 +62,10 @@ namespace Poker
                     return new List<Jogador>() { jogador2 };
             }
             return new List<Jogador>() { jogador1, jogador2 };
+        }
+        private static Queue<Carta> ordenarFila(Jogador jogador1)
+        {
+            return new Queue<Carta>(jogador1.baralho.Except(jogador1.mao.cartasMao).OrderByDescending(c => c.numero));
         }
         private static int calcularPontos(Jogador jogador)
         {
