@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aprendendo Delegates", "Apr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simula Dados", "Simula Dados\Simula Dados.csproj", "{074E3D20-D475-4DA4-B9D3-14D56F797857}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProbabilidadeNotas", "ProbabilidadeNotas\ProbabilidadeNotas.csproj", "{DEEC4F1B-E7D7-4822-A48F-5E6E9D3795E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{074E3D20-D475-4DA4-B9D3-14D56F797857}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{074E3D20-D475-4DA4-B9D3-14D56F797857}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{074E3D20-D475-4DA4-B9D3-14D56F797857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEEC4F1B-E7D7-4822-A48F-5E6E9D3795E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEEC4F1B-E7D7-4822-A48F-5E6E9D3795E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEEC4F1B-E7D7-4822-A48F-5E6E9D3795E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEEC4F1B-E7D7-4822-A48F-5E6E9D3795E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

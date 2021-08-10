@@ -1,7 +1,0 @@
-C:\Users\JX\Documents\GitHub\sexo\sexo\bin\Debug\sexo.exe.config
-C:\Users\JX\Documents\GitHub\sexo\sexo\bin\Debug\sexo.exe
-C:\Users\JX\Documents\GitHub\sexo\sexo\bin\Debug\sexo.pdb
-C:\Users\JX\Documents\GitHub\sexo\sexo\obj\Debug\sexo.csproj.AssemblyReference.cache
-C:\Users\JX\Documents\GitHub\sexo\sexo\obj\Debug\sexo.csproj.CoreCompileInputs.cache
-C:\Users\JX\Documents\GitHub\sexo\sexo\obj\Debug\sexo.exe
-C:\Users\JX\Documents\GitHub\sexo\sexo\obj\Debug\sexo.pdb

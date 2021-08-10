@@ -1,7 +1,0 @@
-C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Outros\ProbabilidadeNotas\ProbabilidadeNotas\bin\Debug\ProbabilidadeNotas.exe.config
-C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Outros\ProbabilidadeNotas\ProbabilidadeNotas\bin\Debug\ProbabilidadeNotas.exe
-C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Outros\ProbabilidadeNotas\ProbabilidadeNotas\bin\Debug\ProbabilidadeNotas.pdb
-C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Outros\ProbabilidadeNotas\ProbabilidadeNotas\obj\Debug\ProbabilidadeNotas.csproj.CoreCompileInputs.cache
-C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Outros\ProbabilidadeNotas\ProbabilidadeNotas\obj\Debug\ProbabilidadeNotas.exe
-C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Outros\ProbabilidadeNotas\ProbabilidadeNotas\obj\Debug\ProbabilidadeNotas.pdb
-C:\Users\JX\Documents\GitHub\C#\Rachas-Cuca-ADP\Outros\ProbabilidadeNotas\ProbabilidadeNotas\obj\Debug\ProbabilidadeNotas.csproj.AssemblyReference.cache

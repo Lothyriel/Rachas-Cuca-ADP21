@@ -1,7 +1,0 @@
-C:\Users\JX\Documents\GitHub\Robo-AEB\Robô-AEB\Robô-AEB\bin\Debug\Robô-AEB.exe.config
-C:\Users\JX\Documents\GitHub\Robo-AEB\Robô-AEB\Robô-AEB\bin\Debug\Robô-AEB.exe
-C:\Users\JX\Documents\GitHub\Robo-AEB\Robô-AEB\Robô-AEB\bin\Debug\Robô-AEB.pdb
-C:\Users\JX\Documents\GitHub\Robo-AEB\Robô-AEB\Robô-AEB\obj\Debug\Robô-AEB.csprojAssemblyReference.cache
-C:\Users\JX\Documents\GitHub\Robo-AEB\Robô-AEB\Robô-AEB\obj\Debug\Robô-AEB.csproj.CoreCompileInputs.cache
-C:\Users\JX\Documents\GitHub\Robo-AEB\Robô-AEB\Robô-AEB\obj\Debug\Robô-AEB.exe
-C:\Users\JX\Documents\GitHub\Robo-AEB\Robô-AEB\Robô-AEB\obj\Debug\Robô-AEB.pdb
