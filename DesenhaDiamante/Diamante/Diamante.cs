@@ -1,22 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace DiamanteLetras
 {
     public class Diamante
     {
-        public static String ExibirDiamante(char letraFinal)
+        public static string ExibirDiamante(char letraFinal)
         {
-            String espacos = "";
-            List<String> listaLetras = new List<String>();
+            string espacos = "";
+            List<string> listaLetras = new List<string>();
 
             for (int i = 'A'; i <= letraFinal; i++)
             {
                 bool casoA = i != 'A';
-                String margem = gerarMargem(letraFinal - i);
+                string margem = new string(' ', letraFinal - i);
 
-                String letraAtual = Char.ConvertFromUtf32(i);
+                string letraAtual = Char.ConvertFromUtf32(i);
 
                 listaLetras.Add(margem + letraAtual + espacos + (casoA ? letraAtual : ""));
 
@@ -26,20 +25,13 @@ namespace DiamanteLetras
             listaLetras.AddRange(gerarParteInvertida(listaLetras));
             return adicionandoEspacos(listaLetras);
         }
-        private static String adicionandoEspacos(List<String> listaLetras)
+        private static string adicionandoEspacos(List<string> listaLetras)
         {
-            String diamante = "";
+            string diamante = "";
             listaLetras.ForEach(x => diamante += x + "\n");
             return diamante;
         }
-        private static String gerarMargem(int tamanho)
-        {
-            List<String> listaMargem = Enumerable.Repeat(" ", tamanho).ToList();
-            String margem = "";
-            listaMargem.ForEach(x => margem += x);
-            return margem;
-        }
-        private static List<String> gerarParteInvertida(List<string> listaLetras)
+        private static List<string> gerarParteInvertida(List<string> listaLetras)
         {
             var reverso = new List<string>(listaLetras);
             reverso.Reverse();
