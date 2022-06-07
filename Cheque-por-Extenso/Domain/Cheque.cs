@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Numerics;
+﻿using System.Numerics;
 using System.Text;
 
-namespace Cheque_por_Extenso
+namespace ChequeExtenso
 {
     public class Cheque
     {
@@ -22,7 +20,7 @@ namespace Cheque_por_Extenso
                 return "Valor não suportado";
 
             var classes = GetClasses(valor);
-            var chequePorExtenso = new Stack<string>();
+            var ChequePorExtenso = new Stack<string>();
 
             int iMultip = 0;
             var redondo = EhValorRedondo(valor);
@@ -39,19 +37,19 @@ namespace Cheque_por_Extenso
                     else if (iMultip > 1 && classes[i] != "000") separador = " ";
                     else if (i < classes.Count - 2 && redondo) separador = " de";                                                       //inserir "de reais" em valores redondos a partir de 1.000.000
                     else if (i < classes.Count - 2) separador = " e ";
-                    chequePorExtenso.Push(" " + multiplicador + separador);
+                    ChequePorExtenso.Push(" " + multiplicador + separador);
                 }
                 iMultip++;
-                chequePorExtenso.Push(ClasseEmExtenso(classeAtual));
+                ChequePorExtenso.Push(ClasseEmExtenso(classeAtual));
             }
-            return MontarString(chequePorExtenso);
+            return MontarString(ChequePorExtenso);
         }
         private string GetMultiplicador(int iMultip, string classeAtual)
         {
             return classeAtual == "001" ? MultiplicadorSingular[iMultip] : MultiplicadorPlural[iMultip];
         }
 
-        public bool EhValorRedondo(decimal valor)
+        public static bool EhValorRedondo(decimal valor)
         {
             var valorSemDecimal = new BigInteger(valor);
             string strValor = valorSemDecimal.ToString();
@@ -59,23 +57,23 @@ namespace Cheque_por_Extenso
 
             return valorSemDecimal % expoente == 0;
         }
-        private string MontarString(Stack<string> classesPorExtenso)
+        private static string MontarString(Stack<string> classesPorExtenso)
         {
-            var chequePorExtenso = new StringBuilder();
+            var ChequePorExtenso = new StringBuilder();
 
             while (classesPorExtenso.Count > 0)
-                chequePorExtenso.Append(classesPorExtenso.Pop());
+                ChequePorExtenso.Append(classesPorExtenso.Pop());
 
-            return chequePorExtenso.ToString();
+            return ChequePorExtenso.ToString();
         }
         private string ClasseEmExtenso(string classe)
         {
             string separacaoCentenas = "";
             string separacaoDezenas = "";
 
-            int centena = (int)Char.GetNumericValue(classe[0]);
-            int dezena = (int)Char.GetNumericValue(classe[1]);
-            int unidade = (int)Char.GetNumericValue(classe[2]);
+            int centena = (int)char.GetNumericValue(classe[0]);
+            int dezena = (int)char.GetNumericValue(classe[1]);
+            int unidade = (int)char.GetNumericValue(classe[2]);
 
             var centenas = Centenas[centena];
             var dezenas = Dezenas[dezena];
@@ -88,7 +86,7 @@ namespace Cheque_por_Extenso
 
             return centenas + separacaoCentenas + dezenas + separacaoDezenas + unidades;
         }
-        private List<string> GetClasses(decimal valor)                                                                        //centavos por ultimo
+        private static List<string> GetClasses(decimal valor)                                                                        //centavos por ultimo
         {
             string valorStr = valor.ToString("000,000,000,000,000,000,000,000,000.00");
             string[] classesEDecimal = valorStr.Split(',');

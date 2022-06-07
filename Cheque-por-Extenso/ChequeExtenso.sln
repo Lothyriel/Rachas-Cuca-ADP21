@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{C9BB0952-30CB-4BF0-AC14-6128B0CB7CCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{B9C47863-3273-4225-AB1C-FE0B372BDBDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{B7051EC7-C1C8-472C-A605-EB037924F128}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9BB0952-30CB-4BF0-AC14-6128B0CB7CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9BB0952-30CB-4BF0-AC14-6128B0CB7CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9BB0952-30CB-4BF0-AC14-6128B0CB7CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9BB0952-30CB-4BF0-AC14-6128B0CB7CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9C47863-3273-4225-AB1C-FE0B372BDBDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9C47863-3273-4225-AB1C-FE0B372BDBDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9C47863-3273-4225-AB1C-FE0B372BDBDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9C47863-3273-4225-AB1C-FE0B372BDBDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7051EC7-C1C8-472C-A605-EB037924F128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7051EC7-C1C8-472C-A605-EB037924F128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7051EC7-C1C8-472C-A605-EB037924F128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7051EC7-C1C8-472C-A605-EB037924F128}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B95731DD-F71D-49E4-AAA0-101ECCBC0822}
+	EndGlobalSection
+EndGlobal
