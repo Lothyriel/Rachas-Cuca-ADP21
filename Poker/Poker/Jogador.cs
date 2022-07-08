@@ -8,7 +8,7 @@ namespace Poker
     {
         public Mao mao;
         public List<Carta> baralho;
-        public Jogador(String strBaralho)
+        public Jogador(string strBaralho)
         {
             baralho = getCartas(strBaralho);
             mao = new Mao(baralho);
@@ -18,7 +18,7 @@ namespace Poker
             this.baralho = baralho;
             mao = new Mao(baralho);
         }
-        private static List<Carta> getCartas(String strBaralho)
+        private static List<Carta> getCartas(string strBaralho)
         {
             List<Carta> baralho = new List<Carta>();
             var cartas = strBaralho.Split(' ');

@@ -20,7 +20,7 @@ namespace Poker
             this.numero = numero;
         }
 
-        public static Carta getCarta(String carta)
+        public static Carta getCarta(string carta)
         {
             var numero = (Numero)Enum.Parse(typeof(Numero), "N" + carta[0]);
             var naipe = (Naipe)Enum.Parse(typeof(Naipe), carta[1].ToString());

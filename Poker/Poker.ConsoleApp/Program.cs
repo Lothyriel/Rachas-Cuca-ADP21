@@ -5,7 +5,7 @@ namespace Poker.ConsoleApp
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             CriaJogo cj;
             int iteracoes = 0;
@@ -14,16 +14,19 @@ namespace Poker.ConsoleApp
                 cj = new CriaJogo(2);
                 Console.WriteLine(cj);
                 iteracoes++;
-            } while (!saiuMao(cj.jogo));
+            } while (!SaiuMao(cj.jogo));
+
+            //Console.WriteLine(cj);
+
             Console.WriteLine("Iterações: " + iteracoes);
             Console.ReadKey();
         }
 
-        private static bool saiuMao(Jogo jogo)
+        private static bool SaiuMao(Jogo jogo)
         {
             return jogo.jogadores.Any(j => j.mao.classificacao == ClassMao.RoyalFlush);
         }
-        private static bool empate(Jogo jogo)
+        private static bool Empate(Jogo jogo)
         {
             return jogo.ganhadores().Count > 1;
         }
